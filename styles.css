@@ -625,6 +625,10 @@ button {
   transition: transform 0.8s var(--ease-out-expo);
 }
 
+.hero-photo-portrait {
+  object-position: center 42%;
+}
+
 .hero-photo-frame:hover .hero-photo {
   transform: scale(1.035);
 }
@@ -672,6 +676,16 @@ button {
   display: grid;
   place-items: center;
   font-size: 1.25rem;
+}
+
+.float-mini-thumb {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 6px 14px rgba(43, 30, 22, 0.16);
+  flex-shrink: 0;
 }
 
 .float-label {
@@ -2029,6 +2043,10 @@ button {
   transition: transform 0.6s var(--ease-out-expo);
 }
 
+.creator-photo-dish {
+  object-position: center 48%;
+}
+
 .creator-photo-frame:hover .creator-photo {
   transform: scale(1.035);
 }
@@ -2590,6 +2608,12 @@ button {
     gap: 0.5rem;
     border-radius: 12px;
     animation: none;
+  }
+
+  .float-mini-thumb {
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
   }
 
   .layer-mini-stack {
