@@ -89,7 +89,7 @@
         <div class="ambient-grid"></div>
       </div>
 
-      <div class="container hero-grid">
+      <div class="container hero-centered-layout">
         <div class="hero-content">
           <div class="eyebrow reveal-hero" style="--d: 0ms">
             <span class="dot"></span>
@@ -158,53 +158,43 @@
           </div>
         </div>
 
-        <div class="hero-visual reveal-hero" style="--d: 160ms">
-          <div class="hero-deco-sparkle" aria-hidden="true">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-              <path d="M14 2C14.8 9.2 18.8 13.2 26 14C18.8 14.8 14.8 18.8 14 26C13.2 18.8 9.2 14.8 2 14C9.2 13.2 13.2 9.2 14 2Z" fill="url(#sparkGrad)"/>
-              <defs>
-                <linearGradient id="sparkGrad" x1="2" y1="2" x2="26" y2="26" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#FFB703"/><stop offset="1" stop-color="#E07612"/>
-                </linearGradient>
-              </defs>
-            </svg>
-          </div>
-
-          <div class="hero-photo-frame" data-parallax="0.08">
-            <img
-              src="assets/imel-deana-studio.jpg"
-              alt="Foto Imel dan Deana dengan latar studio hangat, pembuat tutorial resep Mango Vanilla Pudding"
-              class="hero-photo hero-photo-portrait"
-              loading="eager"
-            />
-            <div class="photo-shine" aria-hidden="true"></div>
-            <div class="photo-vignette" aria-hidden="true"></div>
-          </div>
-
-          <!-- Floating Glass Badges -->
-          <div class="float-card float-card-top" data-parallax="-0.14">
-            <div class="float-badge-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2Z"/>
-              </svg>
+        <!-- Clean Symmetrical Editorial Photo Showcase -->
+        <div class="hero-showcase reveal-hero" style="--d: 400ms">
+          <figure class="showcase-card" data-parallax="0.04">
+            <div class="showcase-media">
+              <img
+                src="assets/imel-deana.jpg"
+                alt="Foto Imel dan Deana berlatar merah, pembuat tutorial resep Mango Vanilla Pudding"
+                class="showcase-img showcase-img-portrait"
+                loading="eager"
+              />
             </div>
-            <div>
-              <span class="float-label">Kreator Resep</span>
-              <strong>Imel &amp; Deana</strong>
-            </div>
-          </div>
+            <figcaption class="showcase-caption">
+              <div>
+                <strong>Imel &amp; Deana</strong>
+                <span>XI Busana • Kreator Tutorial</span>
+              </div>
+              <span class="showcase-pill">Pembuat Resep</span>
+            </figcaption>
+          </figure>
 
-          <div class="float-card float-card-bottom" data-parallax="0.12">
-            <img
-              src="assets/mango-pudding-hero.jpg"
-              alt="Pratinjau Mango Vanilla Pudding"
-              class="float-mini-thumb"
-            />
-            <div>
-              <span class="float-label">Menu Spesial</span>
-              <strong>Mango Vanilla Pudding</strong>
+          <figure class="showcase-card" data-parallax="-0.03">
+            <div class="showcase-media">
+              <img
+                src="assets/mango-pudding-hero.jpg"
+                alt="Mango Vanilla Pudding lembut dengan saus mangga berkilau, potongan mangga segar, dan daun mint"
+                class="showcase-img showcase-img-dish"
+                loading="eager"
+              />
             </div>
-          </div>
+            <figcaption class="showcase-caption">
+              <div>
+                <strong>Mango Vanilla Pudding</strong>
+                <span>Manis, Segar &amp; Lembut</span>
+              </div>
+              <span class="showcase-pill pill-gold">Menu Spesial</span>
+            </figcaption>
+          </figure>
         </div>
       </div>
 
